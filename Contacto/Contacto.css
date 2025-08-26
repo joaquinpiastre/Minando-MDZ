@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffcc2a;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+
+  nav {
+    flex: 2; /* Ajusta el espacio del nav para centrarlo */
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro del nav */
+}
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #f5f5f5;
+  }
+  
+  .lang-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .lang-select img {
+    width: 20px;
+  }
+/* Estilo para el título "¿Necesitas ayuda?" */
+.titulo-ayuda {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 36px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Hace el texto más destacado */
+    color: #ffcc2a; /* Color naranja para combinar con el diseño */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Agrega un ligero sombreado */
+    margin-bottom: 120px; /* Aumenta el espaciado inferior */
+    margin-top: 10px; /* Espaciado superior */
+}
+/* Contenedor principal que divide la pantalla */
+.contacto-layout {
+    display: flex; /* Usa Flexbox para dividir en dos columnas */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+/* Sección de la imagen */
+.contacto-imagen {
+    flex: 1; /* Ocupa la mitad de la pantalla */
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    background-color: #ffcc2a; /* Fondo amarillo para combinar con el diseño */
+}
+
+.contacto-imagen img {
+    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Sección del contenido */
+.contacto-contenido {
+    flex: 1; /* Ocupa la otra mitad de la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 20px;
+    background-color: #f5f5f5; /* Fondo claro para contraste */
+}
+
+/* Estilo para el texto debajo del título */
+.descripcion-contacto {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-top: 200px; /* Espaciado superior */
+    margin-bottom: 10px; /* Aumenta el espaciado inferior */
+}
+
+/* Redes sociales */
+.redes-sociales {
+    display: flex;
+    flex-direction: row; /* Mantiene la disposición horizontal */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea los elementos verticalmente */
+    gap: 80px; /* Espaciado entre los enlaces */
+    margin-top: 160px; /* Agrega un espaciado superior */
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaciado entre el icono y el texto */
+}
+
+.redes-sociales img {
+    width: 24px; /* Tamaño del icono */
+    height: 24px;
+}
